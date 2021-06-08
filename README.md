@@ -14,21 +14,6 @@ This is a basic HTML starter project you can build on however you like. No need 
 
 Open each file and check out the comments (in gray) for more info.
 
-## Next steps 🚀
-
-Make an edit to your website! In `index.html`, add this code on the line after the comment with "ADD BUTTON HERE" in it (you can copy and paste the button element HTML):
-
-```html
-<button>
-    Click me!
-</button>
-```
-
-Look at the page to see the button. Click it!
-
-Open `script.js` to see the script that makes the button rotate.
-
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
 ## You built this with Glitch!
 
