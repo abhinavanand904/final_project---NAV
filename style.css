@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');
 
+body {
+  background: MediumTurquoise;
+}
+
 .inback {
   background-color: lime;
+}
+
+h2 {
+  color: rgb(128, 128, 0);
+  font-family: monospace;
 }
 
 
@@ -12,8 +21,20 @@
 }
 
 img {
-  border: 100px;
-  margin:20px;
+  border: 10px dotted #ddd;
+  margin:30px;
+  padding:2vw;
   border-color: coral;
   border-radius: 50%;
+}
+
+p {
+  border: 3px double ;
+}
+
+p > span {
+  color: #7FFF00;
+  font-size: 30px;
+  font-family: 'Sunshiney', cursive;
+    
 }
