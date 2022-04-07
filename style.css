@@ -3,6 +3,7 @@
 
 body {
   
+  background :OldLace ;
   
 }
 .inback {
@@ -26,4 +27,10 @@ p {
   border: 5px double;
   padding: 3vw;
   border-color: red;
+}
+
+p < span {
+color: #5FBG66;
+  font-size: 20px;
+  font-family:
 }
