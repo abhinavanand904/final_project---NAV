@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
 
 
-.inback{
-  background-color:blue;
+body {
   
+  
+}
+.inback {
+  background-color: turquoise;
 }
 
 #titlefont {
@@ -11,4 +14,16 @@
   font-family: "Raleway", sans-serif;
 }
 
+img {
+  border: 10px dotted #dddddd;
+  margin: 20px;
+  padding: 2vw;
+  border-color: coral;
+  border-radius: 50%;
+}
 
+p {
+  border: 5px double;
+  padding: 3vw;
+  border-color: red;
+}
