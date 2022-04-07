@@ -26,7 +26,7 @@ p {
   border-color: red;
 }
 
-p < span {
+p > span {
   color: #fd5e53;
   font-size: 20px;
   font-family: "Raleway", sans-serif;
