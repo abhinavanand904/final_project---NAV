@@ -12,6 +12,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+div h2 {
+  color: rgb (128, 128, 0);
+}
+
 img {
   border: 10px dotted #dddddd;
   margin: 20px;
