@@ -67,8 +67,10 @@ ul {
   background-color: hotpink;
 }
 
-.hover_circle {
+.hover_circle:hover {
   width: 300px;
   height: 300px;
-  background-color:teal;
+  background-color: teal;
 }
+
+
