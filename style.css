@@ -40,8 +40,16 @@ body {
   background-image: url("https://static.wixstatic.com/media/b1b136_f9af1b44403f44988b9b39ce0d8ce0eb~mv2.jpg/v1/fit/w_896,h_775,q_90/b1b136_f9af1b44403f44988b9b39ce0d8ce0eb~mv2.webp");
   background-size: cover;
   background-repeat: repeat;
-  
-  
 }
 
+li:first-child {
+  color: DarkGoldenRod;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
 
+ol:last-child {
+  color: IndianRed;
+  font-weight: 900;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+  
