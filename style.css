@@ -1,75 +1,283 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
 
-body {
-  background: OldLace;
+
+html {background-color: #f2bbb7}
+
+
+//*Below are the css for the flex photo panels in art page, I didn't know 
+an easier way to do it than to repeat them. Even for the other parts of
+the page. My apoligies *//
+
+* {
+  box-sizing:  border-box;
 }
-.inback {
-  background-color: turquoise;
+
+.row1 {
+  display: flex;
+  padding-top: 100px;
+}
+
+.column1 {
+  flex: 33.33%;
+  padding: 1px;
+}
+
+* {
+  box-sizing:  border-box;
+}
+
+.row2 {
+  display: flex;
+  padding-top: 100px;
+}
+
+.column2 {
+  flex: 33.33%;
+  padding: 1px;
+}
+
+* {
+  box-sizing:  border-box;
+}
+
+.row3 {
+  display: flex;
+  padding-top: 100px;
+}
+
+.column3 {
+  flex: 33.33%;
+  padding: 1px;
+}
+
+* {
+  box-sizing:  border-box;
+}
+
+.row4 {
+  display: flex;
+  padding-top: 100px;
+}
+
+.column4 {
+  flex: 33.33%;
+  padding: 1px;
+}
+
+* {
+  box-sizing:  border-box;
+}
+
+.row5 {
+  display: flex;
+  padding-top: 100px;
+}
+
+.column5 {
+  flex: 33.33%;
+  padding: 1px;
+}
+
+* {
+  box-sizing:  border-box;
+}
+
+.row6 {
+  display: flex;
+  padding-top: 100px;
+}
+
+.column6 {
+  flex: 33.33%;
+  padding: 1px;
+}
+
+* {
+  box-sizing:  border-box;
+}
+
+.row7 {
+  display: flex;
+  padding-top: 100px;
+}
+
+.column7 {
+  flex: 33.33%;
+  padding: 1px;
+}
+
+* {
+  box-sizing:  border-box;
+}
+
+.row8 {
+  display: flex;
+  padding-top: 60px;
+}
+
+.column8 {
+  flex: 50%;
+  padding: 100px;
+}
+
+
+
+#navigation_pane{
+  display: flex;
+  flex-direction:row;
+  justify-content:  center;
+  background-color:  #d21f1f; 
+  width: 100%;
+  height: 2.5vw ;
+  z-index:  3;
+  font-family: "Raleway", sans-serif;
+}
+
+.click {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3335;
+  font-family: "Raleway", sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #fff8f7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+/* For the colour hover option*/
+li a:hover {
+  background-color: #711;
+}
+
+.click1 {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3335;
+  font-family: "Raleway", sans-serif;
+}
+
+#navigation_pane1{
+  display: flex;
+  flex-direction:row;
+  justify-content:  center;
+  background-color:  red; 
+  width: 100%;
+  height: 2.5vw ;
+  z-index:  3;
+}
+
+.about_photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 100px;
+}
+
+
+
+
+
+
+
+.click2 {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3335;
+  font-family: "Raleway", sans-serif;
+}
+
+.click3 {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3335;
+  font-family: "Raleway", sans-serif;
+}
+
+#navigation_pane2{
+  display: flex;
+  flex-direction:row;
+  justify-content:  center;
+  background-color:  red; 
+  width: 100%;
+  height: 2.5vw ;
+  z-index:  3;
+}
+
+#navigation_pane3{
+  display: flex;
+  flex-direction:row;
+  justify-content:  center;
+  background-color:  red; 
+  width: 100%;
+  height: 2.5vw ;
+  z-index:  3;
+}
+
+.about_title{
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+.contact_photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 100px;
+
 }
 
 #titlefont {
   font-size: 100px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Italiana", sans-serif;
+  color: #dc0000;
 }
 
-div h2 {
-  color: rgb (128, 128, 0);
+#titlefont1 {
+  font-size: 100px;
+  font-family: "Italiana", sans-serif;
+  color: #dc0000;
 }
 
-img {
-  border: 10px dotted #dddddd;
-  margin: 20px;
-  padding: 2vw;
-  border-color: coral;
-  border-radius: 50%;
+#titlefont2 {
+  font-size: 100px;
+  font-family: "Italiana", sans-serif;
+  color: #dc0000;
 }
 
 p {
-  border: 5px double;
-  padding: 3vw;
-  border-color: red;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 18px;
+
 }
 
-p > span {
-  color: #fd5e53;
-  font-size: 20px;
+.contact_title {
+  font-size: 50px;
   font-family: "Raleway", sans-serif;
 }
 
-body {
-  background-image: url("https://static.wixstatic.com/media/b1b136_f9af1b44403f44988b9b39ce0d8ce0eb~mv2.jpg/v1/fit/w_896,h_775,q_90/b1b136_f9af1b44403f44988b9b39ce0d8ce0eb~mv2.webp");
-  background-size: cover;
-  background-repeat: repeat;
-}
-
-li:first-child {
-  color: DarkGoldenRod;
-  font-family: "Lucida Console", "Courier New", monospace;
-}
-
-ol:last-child {
-  color: IndianRed;
-  font-weight: 900;
-  font-family: "Lucida Console", "Courier New", monospace;
-}
-
-ul {
-  color: Magenta;
-  font-weight: 900;
-  font-family: "Lucida Console", "Courier New", monospace;
-}
-
-.hover_circle.fixed {
-  position: fixed;
-  margin: 64px auto;
-  width: 200px;
-  height: 200px;
-  border-radius: 500px;
-  background-color: hotpink;
-}
-
-.hover_circle:hover {
-  width: 300px;
-  height: 300px;
-  background-color: teal;
+.contact_para {
+  font-family: "Raleway", sans-serif;
+  text-align: center;x
+  font-size: 50px;
+  text-align: center;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
 }

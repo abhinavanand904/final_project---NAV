@@ -1,1 +1,0 @@
-# icom101 week 1 HW starting point
